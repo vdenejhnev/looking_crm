@@ -1,0 +1,17 @@
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  Options +FollowSymlinks
+  RewriteBase /
+
+  RewriteCond %{HTTP_HOST} www.SITENAME.RU [NC]
+  RewriteRule ^(.*)$ //SITENAME.RU/ [R=301,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !.(js)$
+  RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
+
+Redirect /admin/index.php /admin/index/

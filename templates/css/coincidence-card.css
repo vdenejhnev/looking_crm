@@ -1,0 +1,53 @@
+.coincidence-card {
+	width: 228px;
+	height: 242px;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25);
+	padding: 14px;
+	margin-right: 20px;
+    margin-top: 13px;
+	margin-bottom: 20px;
+}
+
+.coincidence-card .notification-title {
+	font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.coincidence-card .notification-title a {
+	color: #000000;
+}
+
+.coincidence-card .notification-descr {
+	background-color: #FEFFD6;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 12px;
+    padding: 8px;
+}
+
+.coincidence-card .notification-intersection {
+	padding: 12px 0;
+}
+
+.coincidence-card .intersection-text {
+	font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.coincidence-card .intersection-field {
+	font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #000000;
+    float: right;
+    padding-top: 4px;
+}

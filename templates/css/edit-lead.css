@@ -1,0 +1,103 @@
+.edit-lead-form {
+    position: relative;
+}
+
+.edit-lead-form header {
+  height: 89px;
+}
+
+.edit-lead-form h1 {
+  font-size: 24px;
+  font-weight: 400;
+  left: 6px;
+  line-height: 29px;
+  position: absolute;
+  top: -5px;
+}
+
+.edit-lead-form .status {
+  font-size: 12px;
+  font-weight: 400;
+  left: 4px;
+  line-height: 15px;
+  position: absolute;
+  top: 30px;
+}
+
+.edit-lead-form .datetime {
+  color: #515151;
+  font-size: 12px;
+  font-weight: 400;
+  left: 3px;
+  line-height: 15px;
+  position: absolute;
+  top: 56px;
+}
+
+.edit-lead-form input[type=text] {
+    height: 26px!important;
+}
+
+.edit-lead-form table td:first-child {
+    width: 121px;
+}
+
+.edit-lead-form table td:nth-child(2) {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.edit-lead-form table td:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.edit-lead-form input[type=text] {
+    width: 223px;
+    font-size: 12px;
+}
+
+.edit-lead-form input[name=inn], .edit-lead-form input[name=phones\[\]] {
+    width: 121px;
+}
+
+.edit-lead-form textarea {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.edit-lead-form .collisions {
+  margin-left: 6px;
+  margin-top: 15px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.edit-lead-form .collisions td {
+  padding-bottom: 11px;
+}
+
+.edit-lead-form .collisions td:first-child {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+.edit-lead-form .collisions td:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.edit-lead-form .collisions td:last-child {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}

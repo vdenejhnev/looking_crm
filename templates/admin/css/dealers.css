@@ -1,0 +1,113 @@
+#page-content {
+  padding: 28px 23px 59px 38px;
+}
+
+#dealers-xls {
+  position: absolute;
+  right: 30px;
+  top: 74px;
+}
+
+.add-dealer-form input[type=text] {
+  width: 100%;
+}
+
+.add-dealer-form input.short[type=text] {
+  width: 216px;  
+}
+
+.add-dealer-form button {
+  margin-top: 50px;
+}
+
+.leads-range {
+  position: absolute;
+  right: 23px;
+  top: 148px;
+}
+
+.leads-range input[type=text] {
+  width: 109px;
+}
+
+#dealers-list-pager {
+  margin-left: 25px;
+}
+
+#dealers-list-pager .custom-select {
+  border: 1px solid #E86C42;
+  border-radius: 6px;
+  color: #E86C42;
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-right: 23px;
+  padding: 0 36px 0 10px;
+}
+
+#dealers-list-pager .custom-select::after {
+  border-left-width: 6px;
+  border-right-width: 6px;
+  border-top-width: 9px;
+  right: 9px;
+  top: 12px;
+}
+
+#dealers-list-pager .list {
+  background: #fff;
+  padding: .5em;
+}
+
+#dealers-list-pager .hint {
+  color: #A5A5A5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 4px;
+}
+
+.popup-content {
+  left: 268px;
+  padding: 25px 34px 54px 34px;
+  top: 138px;
+  width: 469px;
+}
+
+.add-dealer-form .company-select {
+  width: 100%;
+  border: none;
+  background: #EAEAEA;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 36px;    
+  padding-left: 8px;
+  appearance: none;
+}
+
+.add-dealer-form .city-select {
+  width: 100%;
+  border: none;
+  background: #EAEAEA;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 36px;
+  padding-left: 8px;
+  appearance: none;
+}
+
+.select2-selection.select2-selection--single, .select2-dropdown {
+  background-color: #EAEAEA!important;
+  border: none!important;
+  border-radius: 4px!important;
+}
+
+.select2-selection.select2-selection--single {
+  height: 36px!important;
+}
+
+.select2-selection__rendered {
+  color: #000!important;
+}

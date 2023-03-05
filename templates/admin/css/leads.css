@@ -1,0 +1,97 @@
+.lead-phones-list, .lead-emails-list{
+  position: sticky;
+  background: #fff5d7;
+}
+
+.lead-phones-list:hover, .lead-emails-list:hover{
+  border: 1px solid #000;
+  z-index: 1;
+}
+
+.lead-phones-list:hover li, .lead-emails-list:hover li{
+  display: block;
+}
+
+.lead-phones-list li, .lead-emails-list li {
+  list-style-type: none;
+  display: none;
+}
+
+.lead-phones-list li.first-phone, .lead-emails-list li.first-email{
+  display: block;
+}
+
+#page-content {
+  padding: 28px 23px 59px 38px;
+}
+
+.popup-content {
+  padding: 30px;
+  width: 470px;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.pager .custom-select {
+  border: 1px solid #E86C42;
+  border-radius: 6px;
+  color: #E86C42;
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-right: 23px;
+  padding: 0 36px 0 10px;
+}
+
+.pager .custom-select::after {
+  border-left-width: 6px;
+  border-right-width: 6px;
+  border-top-width: 9px;
+  right: 9px;
+  top: 12px;
+}
+
+.pager .list {
+  background: #fff;
+  padding: .5em;
+}
+
+.pager .hint {
+  color: #A5A5A5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 4px;
+}
+
+.leads-range {
+    position: absolute;
+    right: 23px;
+    top: 148px;
+}
+
+.leads-range input[type=text] {
+    width: 109px;
+}
+
+.status-color {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-right: 6px;
+}
+
+.data-table-wrap {
+    margin-top: 58px;
+    overflow: auto;
+}
+
+.lead-card hr {
+  margin-top: 14px;
+}
+
+.lead-card .lead-info td {
+    padding-top: 16px!important;
+}

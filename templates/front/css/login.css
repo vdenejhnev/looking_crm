@@ -1,0 +1,30 @@
+#page-header {
+  height: 334px;
+}
+
+#login-form {
+  left: 100px;
+  min-height: 297px;
+  padding: 17px 43px 33px 33px;
+  position: relative;
+  top: -100px;
+  width: 412px;
+}
+
+#login-form label {
+  font-style: normal;
+}
+
+#login-form input {
+  width: 100%;
+}
+
+#login-form p {
+  margin-top: 10px;
+}
+
+#login-form a {
+  float: right;
+  margin-top: 26px;
+  line-height: 46px;
+}

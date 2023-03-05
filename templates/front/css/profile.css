@@ -1,0 +1,28 @@
+.tab-nav {
+    padding: 24px 40px 36px;
+}
+
+.tab-nav a{
+    font-size: 16px;
+    text-decoration-style: dotted;
+    margin-right: 27px;
+    padding: 6px 10px;
+}
+
+.tab-nav .curr-tab{
+    text-decoration: none;
+    color: #000;
+    background-color: #FEFFB7;
+}
+
+.panel {
+    display: none;
+	background-color: #fff;
+    max-width: 546px;
+    margin-left: 37px;
+    padding: 28px 23px 49px;
+}
+
+.panel.active-tab {
+    display: block;
+}

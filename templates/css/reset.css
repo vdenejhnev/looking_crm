@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th,
+table td {
+  text-align: left;
+  vertical-align: top;
+}

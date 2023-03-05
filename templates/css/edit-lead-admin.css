@@ -1,0 +1,220 @@
+.edit-lead-card {
+  position: relative;
+}
+
+.edit-lead-card header {
+  height: 105px;
+}
+
+.edit-lead-card h1 {
+  font-size: 24px;
+  font-weight: 400;
+  left: 6px;
+  line-height: 29px;
+  position: absolute;
+  top: -5px;
+}
+
+.edit-lead-card .status {
+  font-size: 12px;
+  font-weight: 400;
+  left: 4px;
+  line-height: 15px;
+  position: absolute;
+  top: 30px;
+}
+
+.edit-lead-card .lead-header-info {
+  display: flex;
+  color: #515151;
+  font-size: 12px;
+  font-weight: 400;
+  left: 3px;
+  line-height: 15px;
+  position: absolute;
+  top: 56px;
+}
+
+.edit-lead-card .lead-header-info .lead-header-info-col{
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.edit-lead-card .dealer {
+  text-decoration: underline;
+}
+
+.edit-lead-card .dealer-company {
+  text-decoration: underline;
+  padding-top: 5px;
+}
+
+.edit-lead-card .datetime {
+
+}
+
+.edit-lead-card hr {
+  border: 1px solid #8C8C8C;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.edit-lead-card .lead-info {
+  margin-bottom: 25px;
+  margin-left: 2px;
+  margin-top: 6px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.edit-lead-card .lead-info td {
+  padding-top: 8px;
+}
+
+.edit-lead-card .lead-info td:first-child {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+.edit-lead-card .lead-info td:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.edit-lead-card .lead-info input, .edit-lead-card .lead-header-info input  {
+  background: #EAEAEA;
+  border: none;
+  width: 223px;
+  height: 21px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  padding-left: 8px;
+}
+
+.edit-lead-card .lead-info .short-input {
+  width: 132px;
+}
+
+.edit-lead-card .lead-info input[type=date], .edit-lead-card .lead-header-info input[type=date] {
+  width: 94px;
+  margin-right: 6px;
+}
+
+.edit-lead-card .lead-info input[type=time] {
+  width: 44px;
+  padding: 5px 4px;
+}
+
+.edit-lead-card .lead-header-info input[type=time] {
+  width: 44px;
+  padding: 5px 4px;
+  margin-top: 4px;
+}
+
+.edit-lead-card .lead-info input[type=time]::-webkit-calendar-picker-indicator, .edit-lead-card .lead-header-info input[type=time]::-webkit-calendar-picker-indicator{
+  -webkit-appearance: none;
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+} 
+
+.edit-lead-card .lead-info .timezone-name {
+  margin-left: 4px;
+}
+
+.edit-lead-card .lead-header-info .timezone-name {
+  margin-left: 7px;
+}
+
+.edit-lead-card .lead-info .edit {
+  color: #447EED;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-left: 25px;
+  position: relative;
+  text-decoration-line: underline;
+  top: -4px;
+}
+
+.edit-lead-card .lead-info .edit::before {
+  content: "";
+  background: transparent url(/img/lead-card-edit.svg);
+  height: 18px;
+  left: 1px;
+  position: absolute;
+  top: -3px;
+  width: 18px;
+}
+
+.edit-lead-card .lead-info textarea {
+  background: rgb(234, 234, 234);
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  min-height: 59px;
+  padding: 8px;
+  resize: vertical;
+  width: 269px;
+}
+
+.edit-lead-card .lead-info tr:last-child td {
+  padding-top: 22px;
+}
+
+.edit-lead-card .collisions {
+  margin-left: 6px;
+  margin-top: 15px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.edit-lead-card .collisions td {
+  padding-bottom: 11px;
+}
+
+.edit-lead-card .collisions td:first-child {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+.edit-lead-card .collisions td:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-decoration-line: underline;
+}
+
+.edit-lead-card .collisions td:last-child {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.edit-lead-card .save {
+  background: #CBCBCB;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 47px;
+  margin-left: 6px;
+  margin-top: 18px;
+  padding: 0 41px;
+  text-align: center;
+}
+
+.edit-lead-card .save-edit-lead {
+  background: #E86C42;
+}

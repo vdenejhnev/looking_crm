@@ -1,0 +1,14 @@
+CREATE TABLE `user` (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  created_at DATETIME NOT NULL DEFAULT NOW(),
+  updated_at DATETIME NULL,
+  email VARCHAR(30) NOT NULL,
+  password VARCHAR(100) NOT NULL,
+  role VARCHAR(10) NULL,
+  name VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY (id),
+  UNIQUE KEY (email),
+  INDEX (role),
+  INDEX (name)
+) CHARSET utf8;
