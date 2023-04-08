@@ -4,10 +4,10 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // для подключения к базе данных
-$DB_SERVER   =   "localhost";
-$DB_USER     =   "root";
-$DB_PASSWORD =   "root";
-$DB_NAME     =   "taxi-trust";
+$DB_SERVER   =   "";
+$DB_USER     =   "";
+$DB_PASSWORD =   "";
+$DB_NAME     =   "";
 
 // полное имя сайта
 $SERVER      =   "//$_SERVER[HTTP_HOST]/";
